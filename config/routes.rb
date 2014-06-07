@@ -1,4 +1,5 @@
 RissaPhotography::Application.routes.draw do
+  get "pages/index"
   resources :images do
   #->Prelang (voting/acts_as_votable)
   member do
